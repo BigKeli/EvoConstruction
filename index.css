@@ -45,7 +45,11 @@
     max-width: 100%;
   }
 }
-
+@media(max-height: 767px) {
+  .feature-feature {
+    max-height: 100%;
+  }
+}
 
 .feature-wrapper-ux7k {
   display: contents;
