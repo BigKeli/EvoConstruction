@@ -40,6 +40,12 @@
     max-width: 100%;
   }
 }
+@media(max-width: 767px) {
+  .home-video2 {
+    max-width: 100%;
+  }
+}
+
 
 .feature-wrapper-ux7k {
   display: contents;
@@ -1257,6 +1263,9 @@
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove bottom space under the image */
 }
+@media screen {
+  
+}
 .home-tint1 {
   top: 0px;
   left: 0px;
@@ -1310,16 +1319,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-hamburger {
-  cursor: pointer;
-  display: none;
-  padding: var(--dl-space-space-unit);
-  aspect-ratio: 1;
-  border-width: 0px;
-  border-radius: var(--dl-radius-radius-round);
-  flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.3);
-}
+
 .home-icon10 {
   fill: #ffffff;
   width: var(--dl-size-size-xsmall);
